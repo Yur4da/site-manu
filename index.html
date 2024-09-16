@@ -81,50 +81,19 @@
 
     <section id="home">
       <!-- Início seção home -->
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 d-flex">
-            <!-- Textos da seção -->
-            <div class="align-self-center">
-              <h1 class="display-3">revolução verde</h1>
-              <p class="text">
-                Na Osíris, inovação e ecologia caminham lado a lado para
-                transformar o futuro da saúde. Desenvolvemos plásticos
-                hospitalares biodegradáveis de alta qualidade, que respeitam o
-                meio ambiente e garantem a segurança dos profissionais e
-                pacientes.
-              </p>
-
-              <form class="mt-4 mb-4">
-                <div class="input-group input-group-lg">
-                  <div class="input-group-append">
-                    <button
-                      type="button"
-                      class="btn custom-btn-color"
-                      id="button-home"
-                    >
-                      Conheça nossos produtos
-                    </button>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-          <!--/fim textos da seção -->
-          <div id="div-img-home" class="col-md-6 d-none d-md-block">
-            <img class="capa-home" src="./img/img-home.png  " />
-          </div>
-        </div>
+      <div class="container-fluid p-0 container-img">
+        <img src="./img/paisagem.jpg" class="custom-image" alt="Imagem full-width">
       </div>
     </section>
     <!--/fim seção home -->
 
-    <section class="caixa">
+    <section class="caixa ">
       <!--/Início seção recursos -->
-      <div class="container-fluid">
-        <div class="row">
+      <div class="container-fluid box-recurso">
+        
+        <div class="row section-recurso">
           <div class="col-sm-12 col-md-3 text-center coluna">
-            <img src="./img/recursos-naturais.png" class="icon-1" />
+            <img src="./img/visao.png" class="icon-1" />
             <h5>VISÃO</h5>
             <p class="text-recurso">
               Nossa visão é ser pioneira na área de plástico biodegradável no setor hospitalar.
@@ -132,7 +101,7 @@
             </p>
           </div>
           <div class="col-sm-12 col-md-3 text-center coluna">
-            <img src="./img/recursos-naturais.png" class="icon-1" />
+            <img src="./img/missao.png" class="icon-1" />
             <h5>MISSÃO</h5>
             <p class="text-recurso">
               Oferecer materiais de qualidade que possam atender nosso cliente e assim criar uma solução sustentável que não impacte o meio ambiente.
@@ -140,7 +109,7 @@
             </p>
           </div>
           <div class="col-sm-12 col-md-3 text-center coluna">
-            <img src="./img/recursos-naturais.png" class="icon-1" />
+            <img src="./img/valor.png" class="icon-1" />
             <h5>VALORES</h5>
             <p class="text-recurso">
                Ética sustentável | Empatia | Transparência com o cliente | Responsabilidade
@@ -151,19 +120,16 @@
     </section>
     <!--/FIM seção recursos -->
 
-    <section class="caixa" id="projeto">
+    <section class="caixa">
       <!--/Início seção PROJETO -->
       <div class="container">
-        <h1 class="display-3 text-center text-projeto">PROJETO</h1>
+        <h5 id="projeto"> </h5>
         <div class="row">
           <div class="col-md-6 d-flex">
             <div class="align-self-center">
-              <h2>Impacto Sustentável</h2>
+              <h2>Plano de responsabilidade social</h2>
               <p>
-                Comprometidos com a sustentabilidade, nossos projetos visam
-                transformar o setor de saúde com soluções eco-friendly.
-                Trabalhamos para promover práticas sustentáveis e conscientes em
-                hospitais e empresas da área da saúde.
+                Abastecimento de pequenos hospitais e postos de saúde que não possuem estrutura nem investimento suficiente, e assim causam o descarte inadequado de matérias do seguimento hospitalar sendo eles contaminados ou não. Assim de forma ética e responsável a Osíris contribuiria para a redução de lixos tóxicos descartados indevidamente, bem como viabilizaria o acesso a produtos de qualidade que garantiram o bem estar do médico e do paciente
               </p>
               <a href="" class="btn btn-primary">Veja mais</a>
             </div>
@@ -222,33 +188,76 @@
 
     <section class="loja"></section>
       <!--/Início seção recursos -->
-      <div class="container-fluid">
+      <div class="container mt-5">
         <div class="row">
-          <div class="col-md-3 text-center coluna">
-            <img src="./img/recursos-naturais.png" class="icon-1" />
-            <h5>Fácil de usar</h5>
-            <p>
-              O Finans vai além do básico e permite que você faça controles
-              incríveis, essenciais para suas finanças. Simples como tem que
-              ser!
-            </p>
+          <!-- Card 1 -->
+          <div class="col-md-4">
+            <div class="card">
+              <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Imagem do produto 1">
+              <div class="card-body">
+                <h5 class="card-title">Produto 1</h5>
+                <p class="card-text">Este é um ótimo produto com muitas funcionalidades incríveis.</p>
+                <p class="card-text"><strong>Preço: R$ 199,99</strong></p>
+              </div>
+            </div>
           </div>
-          <div class="col-md-3 text-center coluna">
-            <img src="./img/recursos-naturais.png" class="icon-1" />
-            <h5>Economize seu tempo</h5>
-            <p>
-              Tempo é dinheiro! Em segundos, você tem tudo sob controle e
-              aproveite seu tempo com o que realmente importa pra você!
-            </p>
+      
+          <!-- Card 2 -->
+          <div class="col-md-4">
+            <div class="card">
+              <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Imagem do produto 2">
+              <div class="card-body">
+                <h5 class="card-title">Produto 2</h5>
+                <p class="card-text">Este produto oferece excelente desempenho e ótimo valor.</p>
+                <p class="card-text"><strong>Preço: R$ 299,99</strong></p>
+              </div>
+            </div>
           </div>
-          <div class="col-md-3 text-center coluna">
-            <img src="./img/recursos-naturais.png" class="icon-1" />
-            <h5>Suporte amigo</h5>
-            <p>
-              Dúvidas? Perguntas? Nosso suporte super legal ajuda você! A gente
-              tá aqui pra resolver seus problemas e deixar sua vida bem mais
-              fácil!
-            </p>
+      
+          <!-- Card 3 -->
+          <div class="col-md-4">
+            <div class="card">
+              <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Imagem do produto 3">
+              <div class="card-body">
+                <h5 class="card-title">Produto 3</h5>
+                <p class="card-text">Este é um dos melhores produtos do mercado com preço acessível.</p>
+                <p class="card-text"><strong>Preço: R$ 399,99</strong></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-md-4">
+            <div class="card">
+              <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Imagem do produto 3">
+              <div class="card-body">
+                <h5 class="card-title">Produto 3</h5>
+                <p class="card-text">Este é um dos melhores produtos do mercado com preço acessível.</p>
+                <p class="card-text"><strong>Preço: R$ 399,99</strong></p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="col-md-4">
+            <div class="card">
+              <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Imagem do produto 3">
+              <div class="card-body">
+                <h5 class="card-title">Produto 3</h5>
+                <p class="card-text">Este é um dos melhores produtos do mercado com preço acessível.</p>
+                <p class="card-text"><strong>Preço: R$ 399,99</strong></p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="col-md-4">
+            <div class="card">
+              <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Imagem do produto 3">
+              <div class="card-body">
+                <h5 class="card-title">Produto 3</h5>
+                <p class="card-text">Este é um dos melhores produtos do mercado com preço acessível.</p>
+                <p class="card-text"><strong>Preço: R$ 399,99</strong></p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -256,14 +265,9 @@
 
     <footer class="mt-4 mb-4">
       <div class="container">
-        <div class="row">
-          <div class="col-md-8">
-            <p>
-              <a href="">Home</a>
-              <a href="">Recursos</a>
-              <a href="">Benefícios</a>
-              <a href="">Preços</a>
-            </p>
+        <div class="row footer-box">
+          <div class="col-md-3      ">
+          
           </div>
           <div class="col-md-4 d-flex justify-content-end">
             <a href="" class="btn btn-outline-dark">
