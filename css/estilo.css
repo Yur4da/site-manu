@@ -127,8 +127,8 @@ footer {
 
   .box-img {
     content: url('../img/fundo.png'); 
-    object-fit: cover;
-    height: unset;
+    height: 425px;;
+    width: 100%;
   }
 
   #home {
@@ -166,7 +166,7 @@ footer {
   }
 
   .div-img {
-    margin-bottom: 50px;
+    margin-bottom: 50px;  
   }
 
   .navbar-toggler {
