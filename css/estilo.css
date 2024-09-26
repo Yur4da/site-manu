@@ -119,6 +119,41 @@ footer {
   display: flex;
 }
 
+
+
+/* SECTION ADM */
+
+
+/* MENU */
+
+.container-adm{
+  margin-top: 160px;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-lateral {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  
+}
+
+.menu-lateral ul li {
+  list-style: none;
+}
+
+.conteudo-adm {
+  padding: 20px;
+  margin-left: 20px;
+  width: 60%;
+  background-color: white;
+  border-radius: 8px;
+}
+
 @media (max-width: 575.98px) {
   .navbar-expand-sm > .container,
   .navbar-expand-sm > .container-fluid {
