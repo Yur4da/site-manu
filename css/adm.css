@@ -1,0 +1,60 @@
+/* SECTION ADM */
+
+/* MENU */
+
+
+.container-adm {
+    margin-top: 160px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.menu-lateral {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 40%;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    padding-top: 50px;
+}
+
+.menu-lateral ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.menu-lateral ul li a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+
+.menu-lateral ul li a:hover {
+    color: blue;
+}
+
+.icon-folha {
+    margin-right: 5px;
+}
+
+.conteudo-adm {
+    padding: 20px;
+    margin-left: 20px;
+    width: 60%;
+    background-color: white;
+    border-radius: 8px;
+}
+
+
+/* CONTEUDO-DIRETO */
+
+.img-adm {
+    width: 100%;
+}
