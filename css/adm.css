@@ -20,6 +20,7 @@
     border-radius: 8px;
     padding: 20px;
     padding-top: 50px;
+
 }
 
 .menu-lateral ul li {
@@ -37,7 +38,7 @@
 
 
 .menu-lateral ul li a:hover {
-    color: blue;
+    color: rgb(231, 137, 55);
 }
 
 .icon-folha {
@@ -57,4 +58,31 @@
 
 .img-adm {
     width: 100%;
+}
+
+
+
+@media (max-width: 1220px) {
+    .container-adm {
+        display: flex;
+        flex-direction: column;
+        margin-top: 90px;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .menu-lateral {
+        width: 100%;
+    }
+
+    .menu-lateral ul li {
+        margin-bottom: 10px;
+    }
+
+    .conteudo-adm {
+        width: 100%;
+        margin-left: 0;
+    }
 }
