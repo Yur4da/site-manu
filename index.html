@@ -12,6 +12,7 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
@@ -63,43 +64,69 @@
 
   <section id="home">
     <!-- Início seção home -->
-    <div class="container-fluid p-0 container-img">
-      <img src="./img/paisagem.jpg" class="custom-image box-img" alt="Imagem full-width">
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="6000">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/campo.jpg" class="d-block w-100" alt="Imagem 1">
+          <div class="carousel-caption">
+            <h3>Inovação e ecologia caminham a lado para transformar o futuro da saúde.</h3>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/campo3.png" class="d-block w-100" alt="Imagem 2">
+          <div class="carousel-caption">
+            <h2>Você sabia?</h2>
+            <h3>
+              A Abrelpe, calcula que somente 30% do lixo infectante é destinado corretamente, no Brasil, e os outros 70%
+              descartados incorretamente são focos de contaminações e epidemias.</h3>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/campo4.png" class="d-block w-100" alt="Imagem 3">
+          <div class="carousel-caption">
+            <h3>Produtos biodegradáveis feitos de fibras vegetais, com o objetivo de minimizar o impacto da indústria
+              hospitalar no mundo e no meio ambiente. 
+            </h3>
+            <a href="#" class="btn btn-primary">Veja mais</a>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
   <!--/fim seção home -->
 
   <section class="caixa ">
     <!--/Início seção recursos -->
-    <div class="container-fluid">
 
-      <div class="row section-recurso">
-        <div class="col-sm-12 col-md-3 text-center coluna ">
-          <img src="./img/visao.png" class="icon-1" />
-          <h5>VISÃO</h5>
-          <p class="text-recurso">
-            Nossa visão é ser pioneira na área de plástico biodegradável no setor hospitalar.
+    <div class="section-valores">
 
-          </p>
-        </div>
-        <div class="col-sm-12 col-md-3 text-center coluna">
-          <img src="./img/missao.png" class="icon-1" />
-          <h5>MISSÃO</h5>
-          <p class="text-recurso">
-            Oferecer materiais de qualidade que possam atender nosso cliente e assim criar uma solução sustentável que
-            não impacte o meio ambiente.
-
-          </p>
-        </div>
-        <div class="col-sm-12 col-md-3 text-center coluna">
-          <img src="./img/valor.png" class="icon-1" />
-          <h5>VALORES</h5>
-          <p class="text-recurso">
-            Ética sustentável | Empatia | Transparência com o cliente | Responsabilidade
-          </p>
-        </div>
+      <div class="card-recurso">
+        <img src="./img/visao.png" class="icon-1" />
+        <h5>VISÃO</h5>
+        <p class="text-recurso">
+          Nossa visão é ser pioneira na área de plástico biodegradável no setor hospitalar.
+        </p>
       </div>
+
+      <div class="card-recurso">
+        <img src="./img/missao.png" class="icon-1" />
+        <h5>Missão</h5>
+        <p class="text-recurso">
+          Oferecer materiais de qualidade que possam atender nosso cliente e assim criar uma solução sustentável que
+          não impacte o meio ambiente. </p>
+      </div>
+
+      <div class="card-recurso">
+        <img src="./img/valor.png" class="icon-1" />
+        <h5>VALORES</h5>
+        <p class="text-recurso">
+          Ética sustentável - Empatia Transparência com o cliente - Responsabilidade
+        </p>
+      </div>
+
     </div>
+
+
   </section>
   <!--/FIM seção recursos -->
 
@@ -173,7 +200,7 @@
 
 
         <!-- Card 1 -->
-        <div class="col-md-4 ">
+        <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
           <div class="card">
             <img src="./img/produtos/cateter.png" class="card-img-top" alt="Imagem do produto 3">
             <div class="card-body">
@@ -186,7 +213,7 @@
           </div>
         </div>
         <!-- Card 2 -->
-        <div class="col-md-4">
+        <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
           <div class="card">
             <img src="./img/produtos/cotonete.png" class="card-img-top" alt="Imagem do produto 3">
             <div class="card-body">
@@ -201,7 +228,7 @@
           </div>
         </div>
         <!-- Card 3 -->
-        <div class="col-md-4">
+        <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
           <div class="card">
             <img src="./img/produtos/luvaazul.png" class="card-img-top" alt="Imagem do produto 3">
             <div class="card-body">
@@ -219,7 +246,7 @@
         </div>
 
         <!-- Card 4 -->
-        <div class="col-md-4">
+        <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
           <div class="card">
             <img src="./img/produtos/quepe2.png" class="card-img-top" alt="Imagem do produto 3">
             <div class="card-body">
@@ -234,7 +261,7 @@
           </div>
         </div>
         <!-- Card 5 -->
-        <div class="col-md-4">
+        <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
           <div class="card">
             <img src="./img/produtos/mascara.png" class="card-img-top" alt="Imagem do produto 3">
             <div class="card-body">
@@ -251,7 +278,7 @@
         </div>
 
         <!-- Card 6 -->
-        <div class="col-md-4">
+        <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
           <div class="card">
             <img src="./img/produtos/agulha.png" class="card-img-top" alt="Imagem do produto 3">
             <div class="card-body">
@@ -268,7 +295,7 @@
         </div>
 
         <!-- Card 8 -->
-        <div class="col-md-4">
+        <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
           <div class="card">
             <img src="./img/produtos/seringadois.png" class="card-img-top" alt="Imagem do produto 3">
             <div class="card-body">
@@ -310,6 +337,8 @@
 
   <!-- JavaScript (Opcional) -->
   <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>

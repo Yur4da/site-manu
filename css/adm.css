@@ -81,6 +81,10 @@
         margin-bottom: 10px;
     }
 
+    .menu-lateral ul li a {
+        font-size: 14px;
+    }
+
     .conteudo-adm {
         width: 100%;
         margin-left: 0;
